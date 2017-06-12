@@ -10,3 +10,12 @@
 
 # Load image
 `docker load itdex_service.tar.gz`
+
+# Change directory to web service
+`cd nexgensearch/ItDex/ItDexWebService/`
+
+# Create Container from Image
+`docker run -v $PWD:/tmp/working -w=/tmp/working -p 8888:8888 --rm -it itdex_service`
+
+# Run web service
+`python3 itdex_service.py`
