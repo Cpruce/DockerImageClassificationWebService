@@ -19,3 +19,13 @@
 
 # Run web service
 `python3 itdex_service.py`
+
+# Example usage (GUI)
+
+![alt text](https://raw.githubusercontent.com/Cpruce/ItDexWebService/master/itdex_pic2.png)
+
+![alt text](https://raw.githubusercontent.com/Cpruce/ItDexWebService/master/itdex_pic1.png)
+
+# Example usage (HTTP)
+
+0.0.0.0:8888/image?={{ base_64(image_content) }}
